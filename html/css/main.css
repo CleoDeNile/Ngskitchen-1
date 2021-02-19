@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+#jumbotronlogo {
+width: 240px;
+  height: auto;
+  float: right;
+}
+
+@media (max-width: 992px) {
+  #jumbotronlogo {
+    display: none;
+  }
+}
+
+#jumbotron-order-btn {
+  background: #730073;
+  border: none;
+  height: 63px;
+  width: 180px;
+  font-weight: bold;
+  border-radius: 0px;
+  font-family: 'Concert One', sans-serif;
+}
+
+#home-jumbotron {
+  background-image: url("../images/backgrounds/pot-of-food.jpeg");
+  background-size: cover;
+  height: 480px;
+  background-position: center;
+}
+
+#home-jumbotron .display-4 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+h1 {
+  font-family: 'Concert One', sans-serif;
+}
+
+#time {
+  margin-bottom: 1.5rem;
+}
+
+.navbar {
+  background: #730073;
+}
+
+.navbar-brand img{
+  width: 120px;
+}
+
+.justify-content-end{
+  width: 100%;
+}
+
+.justify-content-end a {
+  color: #fff;
+  font-family: 'Concert One', sans-serif;
+}
+
+#grid {
+  display: grid;
+  grid-template-areas: "a a";
+  gap: 10px;
+  grid-auto-columns: 200px;
+  display: flex;
+  flex: 1;
+  padding-bottom: 15px;
+}
+
+#menu-container .card {
+margin: 10px;
+
+}
+
+#menu-container {
+  display:block;
+  margin: 10vh auto;
+}
+
+#menu-container .badge {
+  background-color: #730073;
+  color: #fff;
+}
+
+#menu-jumbotron {
+  background-image: url("../images/backgrounds/rice.jpg");
+  background-size: cover;
+  height: 300px;
+  background-position: center;
+}
+
+.icon {
+  color: #730073;
+}
+
+#menu-container .card {
+  box-shadow: 0 0 10px #ccc;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+.contact-catering-info {
+  margin-bottom: 6.25rem;
+}
+
+/* footer tags */
+
+footer {
+  font-size: 1.3em;
+  margin: auto;
+  width: 100%;
+  height: 6.5rem;
+  padding: 20px 40px;
+  background-color: #730073;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+.copyright {
+  padding-top: 1rem;
+  font-size: .75em;
+  text-align: center;
+  color: #fff;
+}
