@@ -1,0 +1,38 @@
+{
+    "soups":[
+        {
+            "title":"Egusi",
+            "price":3.49
+        },
+        {
+            "title":"404 Soup 🤤",
+            "price":23.50
+        },
+        {
+            "title":"Babalou Soup 😵",
+            "price":100.00
+        },
+        {
+            "title":"Mtcheew Soup 😎",
+            "price":2.53
+        }
+    ],
+    "swallow":[
+        {
+            "title":"Pounded Yam",
+            "price":0.00
+        }
+    ],
+    "rice":[
+        {
+            "title":"White Rice & Stew",
+            "price":0.00
+        }
+    ],
+    "smallchops":[
+        {
+            "title":"Small Chops",
+            "price":0.00
+        }
+    ]
+}
